@@ -13,7 +13,7 @@ public class ArrayListDemo {
 		list.add("Amol");
 		list.add("Satywan");
 		
-		System.out.println(list);
+		list.stream().forEach(x->System.out.println(x));
 		
 	}
 }
